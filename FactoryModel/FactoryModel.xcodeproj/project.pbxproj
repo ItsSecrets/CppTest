@@ -11,6 +11,7 @@
 		CF36F3622059415E00DB3F99 /* AbstractProduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36F3602059415E00DB3F99 /* AbstractProduct.cpp */; };
 		CF36F365205943C600DB3F99 /* SimpleFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36F363205943C600DB3F99 /* SimpleFactory.cpp */; };
 		CF36F36A205947EB00DB3F99 /* AbstructFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36F368205947EB00DB3F99 /* AbstructFactory.cpp */; };
+		CF36F374205A8B6C00DB3F99 /* SortManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36F372205A8B6C00DB3F99 /* SortManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		CF36F364205943C600DB3F99 /* SimpleFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SimpleFactory.hpp; sourceTree = "<group>"; };
 		CF36F368205947EB00DB3F99 /* AbstructFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AbstructFactory.cpp; sourceTree = "<group>"; };
 		CF36F369205947EB00DB3F99 /* AbstructFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AbstructFactory.hpp; sourceTree = "<group>"; };
+		CF36F372205A8B6C00DB3F99 /* SortManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortManager.cpp; sourceTree = "<group>"; };
+		CF36F373205A8B6C00DB3F99 /* SortManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortManager.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 		CF36F3562059404600DB3F99 /* FactoryModel */ = {
 			isa = PBXGroup;
 			children = (
+				CF36F36E205A89C500DB3F99 /* SortManager */,
 				CF36F3672059473300DB3F99 /* AbstuctFactory */,
 				CF36F3662059472100DB3F99 /* Factory */,
 				CF36F35F2059406F00DB3F99 /* SimpleFactory */,
@@ -99,6 +103,15 @@
 			children = (
 			);
 			path = AbstuctFactory;
+			sourceTree = "<group>";
+		};
+		CF36F36E205A89C500DB3F99 /* SortManager */ = {
+			isa = PBXGroup;
+			children = (
+				CF36F372205A8B6C00DB3F99 /* SortManager.cpp */,
+				CF36F373205A8B6C00DB3F99 /* SortManager.hpp */,
+			);
+			path = SortManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF36F36A205947EB00DB3F99 /* AbstructFactory.cpp in Sources */,
+				CF36F374205A8B6C00DB3F99 /* SortManager.cpp in Sources */,
 				CF36F3582059404600DB3F99 /* main.cpp in Sources */,
 				CF36F365205943C600DB3F99 /* SimpleFactory.cpp in Sources */,
 				CF36F3622059415E00DB3F99 /* AbstractProduct.cpp in Sources */,
