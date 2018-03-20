@@ -21,10 +21,10 @@ AbstractProduct* SimpleFactory::createProduct(int pType){
     AbstractProduct* p = nullptr;
     switch (pType) {
         case SimpleFactory::p_productA:
-            p = new ProductA();
+            p = new ProductA(0);
             break;
         case SimpleFactory::p_productB:
-            p = new ProductB();
+            p = new ProductB(0);
             break;
             
         default:

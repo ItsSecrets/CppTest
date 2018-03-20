@@ -24,7 +24,7 @@ FactoryA::~FactoryA(){
 }
 
 AbstractProduct* FactoryA::createProduct(){
-    AbstractProduct* temp = new ProductA();
+    AbstractProduct* temp = new ProductA(0);
     return  temp;
 }
 
@@ -37,6 +37,6 @@ FactoryB::~FactoryB(){
 }
 
 AbstractProduct* FactoryB::createProduct(){
-    AbstractProduct* temp = new ProductB();
+    AbstractProduct* temp = new ProductB(0);
     return temp;
 }

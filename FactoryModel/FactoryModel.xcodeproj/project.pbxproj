@@ -12,6 +12,8 @@
 		CF36F365205943C600DB3F99 /* SimpleFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36F363205943C600DB3F99 /* SimpleFactory.cpp */; };
 		CF36F36A205947EB00DB3F99 /* AbstructFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36F368205947EB00DB3F99 /* AbstructFactory.cpp */; };
 		CF36F374205A8B6C00DB3F99 /* SortManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36F372205A8B6C00DB3F99 /* SortManager.cpp */; };
+		CFAA6C83205B99B500E2C433 /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFAA6C81205B99B500E2C433 /* String.cpp */; };
+		CFAA6C87205F8C7800E2C433 /* VectorObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFAA6C85205F8C7800E2C433 /* VectorObj.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,10 @@
 		CF36F369205947EB00DB3F99 /* AbstructFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AbstructFactory.hpp; sourceTree = "<group>"; };
 		CF36F372205A8B6C00DB3F99 /* SortManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortManager.cpp; sourceTree = "<group>"; };
 		CF36F373205A8B6C00DB3F99 /* SortManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortManager.hpp; sourceTree = "<group>"; };
+		CFAA6C81205B99B500E2C433 /* String.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = String.cpp; sourceTree = "<group>"; };
+		CFAA6C82205B99B500E2C433 /* String.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = String.hpp; sourceTree = "<group>"; };
+		CFAA6C85205F8C7800E2C433 /* VectorObj.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VectorObj.cpp; sourceTree = "<group>"; };
+		CFAA6C86205F8C7800E2C433 /* VectorObj.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VectorObj.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,8 @@
 		CF36F3562059404600DB3F99 /* FactoryModel */ = {
 			isa = PBXGroup;
 			children = (
+				CFAA6C84205F8C5300E2C433 /* STLObject */,
+				CFAA6C80205B99A200E2C433 /* String */,
 				CF36F36E205A89C500DB3F99 /* SortManager */,
 				CF36F3672059473300DB3F99 /* AbstuctFactory */,
 				CF36F3662059472100DB3F99 /* Factory */,
@@ -112,6 +120,24 @@
 				CF36F373205A8B6C00DB3F99 /* SortManager.hpp */,
 			);
 			path = SortManager;
+			sourceTree = "<group>";
+		};
+		CFAA6C80205B99A200E2C433 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				CFAA6C81205B99B500E2C433 /* String.cpp */,
+				CFAA6C82205B99B500E2C433 /* String.hpp */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		CFAA6C84205F8C5300E2C433 /* STLObject */ = {
+			isa = PBXGroup;
+			children = (
+				CFAA6C85205F8C7800E2C433 /* VectorObj.cpp */,
+				CFAA6C86205F8C7800E2C433 /* VectorObj.hpp */,
+			);
+			path = STLObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,10 +197,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFAA6C87205F8C7800E2C433 /* VectorObj.cpp in Sources */,
 				CF36F36A205947EB00DB3F99 /* AbstructFactory.cpp in Sources */,
 				CF36F374205A8B6C00DB3F99 /* SortManager.cpp in Sources */,
 				CF36F3582059404600DB3F99 /* main.cpp in Sources */,
 				CF36F365205943C600DB3F99 /* SimpleFactory.cpp in Sources */,
+				CFAA6C83205B99B500E2C433 /* String.cpp in Sources */,
 				CF36F3622059415E00DB3F99 /* AbstractProduct.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

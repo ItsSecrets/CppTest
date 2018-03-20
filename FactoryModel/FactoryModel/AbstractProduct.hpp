@@ -13,16 +13,19 @@
 
 class AbstractProduct{
 public:
-    AbstractProduct();
+    AbstractProduct(int);
     virtual ~AbstractProduct();
 
     virtual void operation() = 0;
+    int getProductId();
+private:
+    int id = 0;
 };
 
 //productA
 class ProductA:public AbstractProduct{
 public:
-    ProductA();
+    ProductA(int);
     virtual ~ProductA();
 
     void operation();
@@ -31,7 +34,7 @@ public:
 //productB
 class ProductB:public AbstractProduct{
 public:
-    ProductB();
+    ProductB(int);
     virtual ~ProductB();
     
     void operation();

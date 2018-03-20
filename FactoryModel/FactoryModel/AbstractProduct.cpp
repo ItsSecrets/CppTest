@@ -9,18 +9,19 @@
 #include "AbstractProduct.hpp"
 #include <iostream>
 
-AbstractProduct::AbstractProduct(){
-
+AbstractProduct::AbstractProduct(int _id){
+    id = _id;
 }
 AbstractProduct::~AbstractProduct(){
     
     
 }
-
+int AbstractProduct::getProductId(){
+    return id;
+}
 //A
-ProductA::ProductA(){
-
-
+ProductA::ProductA(int _id):AbstractProduct(_id){
+    
 }
 ProductA::~ProductA(){
 
@@ -32,7 +33,7 @@ void ProductA::operation(){
 
 
 //B
-ProductB::ProductB(){
+ProductB::ProductB(int _id):AbstractProduct(_id){
     
     
 }
